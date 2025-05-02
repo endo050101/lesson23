@@ -2,7 +2,7 @@ package lesson23;
 
 public class Police2301 extends Worker2301 {
 	public Police2301(String name, int age) {
-		super(Constant2301, POLICE, name, age);
+		super(Constant2301.POLICE, name, age);
 	}
 	
 	public void doWork() {
